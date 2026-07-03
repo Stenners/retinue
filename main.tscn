@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bafdjgnmrreqr"]
+
+[ext_resource type="PackedScene" uid="uid://d3nx2nv8n12d0" path="res://player.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://cbaun1uldqtaj" path="res://scenes/skele_rogue.tscn" id="2_0xm2m"]
+
+[node name="Main" type="Node2D" unique_id=1724117065]
+
+[node name="Player" parent="." unique_id=902763442 instance=ExtResource("1_ig7tw")]
+position = Vector2(530, 286)
+scale = Vector2(2, 2)
+
+[node name="Skeleton Rogue" parent="." unique_id=1582152262 instance=ExtResource("2_0xm2m")]
+position = Vector2(790, 349)
+scale = Vector2(2, 2)
