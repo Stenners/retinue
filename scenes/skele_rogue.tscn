@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cnjeq8y7agdmi" path="res://assets/images/enemies/skeletons/skeleton_rogue/Idle-Sheet.png" id="1_lgrng"]
 [ext_resource type="Texture2D" uid="uid://hy1lcj7t56bm" path="res://assets/images/enemies/skeletons/skeleton_rogue/Run-Sheet.png" id="2_71unm"]
+[ext_resource type="Script" uid="uid://b7n2fxe4udg5s" path="res://scripts/enemies/skeleton_rogue.gd" id="3_rogue_script"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ed4du"]
 atlas = ExtResource("1_lgrng")
@@ -87,6 +88,7 @@ animations = [{
 }]
 
 [node name="Skeleton Rogue" type="CharacterBody2D" unique_id=1582152262]
+script = ExtResource("3_rogue_script")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1965075287]
 sprite_frames = SubResource("SpriteFrames_s5al1")
