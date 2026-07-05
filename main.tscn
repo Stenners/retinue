@@ -6,9 +6,9 @@
 [node name="Main" type="Node2D" unique_id=1724117065]
 
 [node name="Player" parent="." unique_id=902763442 instance=ExtResource("1_ig7tw")]
-position = Vector2(530, 286)
+position = Vector2(210, 166)
 scale = Vector2(2, 2)
 
 [node name="Skeleton Rogue" parent="." unique_id=1582152262 instance=ExtResource("2_0xm2m")]
-position = Vector2(790, 349)
+position = Vector2(470, 229)
 scale = Vector2(2, 2)
